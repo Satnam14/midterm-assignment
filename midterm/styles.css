@@ -1,0 +1,122 @@
+
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #2e2e2e;
+    background-color: #fdf8f1;
+}
+
+/* Header and Navigation */
+header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background-color: #7a5c61;
+    padding: 1em 0;
+    margin: 0;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fdf8f1;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #fbc2cc;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 4em 0;
+    background: #d1a0a7;
+    color: #fdf8f1;
+}
+
+.explore-button {
+    padding: 0.75em 1.5em;
+    color: #7a5c61;
+    background: #fdf8f1;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.explore-button:hover {
+    background: #fbc2cc;
+}
+
+/* Image Gallery */
+.image-gallery {
+    text-align: center;
+    padding: 2em 0;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+.gallery-item {
+    overflow: hidden;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.gallery-item img {
+    width: 100%;
+    transition: transform 0.4s ease;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.1);
+}
+
+/* Team Gallery */
+.team-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+.team-member {
+    position: relative;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.team-member img {
+    width: 100%;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.team-member:hover img {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Contact Form */
+form label, form input, form textarea, button[type="submit"] {
+    display: block;
+    width: 100%;
+    margin-bottom: 1em;
+    padding: 0.75em;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background: #7a5c61;
+    color: #f
